@@ -42,7 +42,7 @@ J'ai généré une liste y de 1000 points en fonction de sin(X) à laquelle j'ai
 
 Enfin, j'ai visualisé y en fonction de X sous forme de graphique scatter et j'ai créé un histogramme pour le bruit gaussien.
 
-Questions : À quelle fonction la distribution de noise fait penser ? 
+##### Questions : À quelle fonction la distribution de noise fait penser ? 
 La distribution du bruit gaussien fait penser à une distribution normale ou gaussienne.
 
 ## Données
@@ -52,7 +52,7 @@ J'ai obtenu le format et la taille des images en utilisant la bibliothèque Pill
 
 Ensuite, j'ai visualisé une image en couleur, en noir et blanc, et à l'envers pour illustrer ces concepts.
 
-Questions : À quoi ressemble l'image en noir et blanc par rapport à l'image en couleur ? 
+##### Questions : À quoi ressemble l'image en noir et blanc par rapport à l'image en couleur ? 
 L'image en noir et blanc est une représentation en niveaux de gris de l'image en couleur.
 
 #### Homogénéisation des Images
@@ -77,14 +77,12 @@ J'ai utilisé la classe DecisionTreeClassifier de sklearn.tree pour créer un mo
 ### Deuxième Modèle : Support Vector Machine (SVM)
 J'ai utilisé la classe SVC de sklearn.svm pour créer un modèle SVM, puis j'ai répété le processus d'entraînement et d'évaluation.
 
-Questions : 
-
-Comment prédire le label de la première image du set de test pour le modèle d'arbre de décision ? 
+##### Questions : Comment prédire le label de la première image du set de test pour le modèle d'arbre de décision ? 
 La prédiction du label de la première image du set de test pour le modèle d'arbre de décision peut être effectuée en utilisant la méthode predict(X_test[0:1]).
 
 Pour le modèle d'arbre de décision, j'ai exploré le fine-tuning en ajustant la profondeur de l'arbre (max_depth). J'ai créé un graphique pour visualiser comment l'accuracy varie en fonction de la profondeur.
 
 J'ai utilisé également des données de validation pour trouver la meilleure valeur de max_depth et calculé l'accuracy correspondante.
 
-Questions : Quelle est la meilleure valeur de max_depth à choisir ? Pourquoi ? 
+##### Questions : Quelle est la meilleure valeur de max_depth à choisir ? Pourquoi ? 
 La meilleure valeur de max_depth semble être environ 0.9727520435967303, car c'est à ce niveau de profondeur que le modèle atteint l'accuracy maximale avec les données de validation
