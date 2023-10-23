@@ -80,6 +80,8 @@ J'ai utilisé la classe SVC de sklearn.svm pour créer un modèle SVM, puis j'ai
 ##### Questions : Comment prédire le label de la première image du set de test pour le modèle d'arbre de décision ? 
 La prédiction du label de la première image du set de test pour le modèle d'arbre de décision peut être effectuée en utilisant la méthode predict(X_test[0:1]).
 
+## Comparaison de Pipeline et Fine Tuning
+
 Pour le modèle d'arbre de décision, j'ai exploré le fine-tuning en ajustant la profondeur de l'arbre (max_depth). J'ai créé un graphique pour visualiser comment l'accuracy varie en fonction de la profondeur.
 
 J'ai utilisé également des données de validation pour trouver la meilleure valeur de max_depth et calculé l'accuracy correspondante.
