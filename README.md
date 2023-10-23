@@ -87,4 +87,4 @@ Pour le modèle d'arbre de décision, j'ai exploré le fine-tuning en ajustant l
 J'ai utilisé également des données de validation pour trouver la meilleure valeur de max_depth et calculé l'accuracy correspondante.
 
 ##### Questions : Quelle est la meilleure valeur de max_depth à choisir ? Pourquoi ? 
-La meilleure valeur de max_depth semble être environ 0.9727520435967303, car c'est à ce niveau de profondeur que le modèle atteint l'accuracy maximale avec les données de validation
+La meilleure valeur de max_depth semble être environ 0.9727520435967303, car c'est à ce niveau que le modèle atteint l'accuracy maximale avec les données de validation
